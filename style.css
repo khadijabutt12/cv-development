@@ -1,0 +1,242 @@
+body
+{
+    display: flex;
+    background-color: lightgrey;
+   
+}
+.About p
+{
+    color: lightgray;
+    margin-left: 9px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.About h1
+{
+    margin-left: 50px;
+    font-size: 30px;
+}
+.Education li
+{
+    color: lightgray;
+    margin-left: 9px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.Education h1
+{
+    margin-left: 50px;
+    font-size: 30px;
+}
+.Personal h1
+{
+    margin-left: 50px;
+    font-size: 30px;
+}
+.Personal li
+{
+    color: lightgray;
+    margin-left: 9px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.Experience h1
+{
+    border-bottom:2px solid gray;
+    color:rgb(88, 88, 90);
+    font-size: 26px;
+}
+.Experience h2 
+{ 
+    font-size: 20px;
+    color:rgb(88, 88, 90);
+}
+.Experience h3 
+{ 
+    font-size: 20px;
+    color:rgb(88, 88, 90);
+}
+
+.Experience li
+{
+    font-size: 19px;
+    font-style: normal;
+    padding-left: 20px;
+    color: rgb(88, 88, 90); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.reference h1
+{
+    border-bottom:2px solid gray;
+    color:rgb(88, 88, 90);
+    font-size: 26px;
+
+}
+.reference p
+{
+    font-size: 19px;
+    font-style: normal;
+    padding-left: 20px;
+    color: rgb(88, 88, 90); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.Work li
+{
+    font-size: 19px;
+    font-style: normal;
+    padding-left: 20px;
+    color: rgb(88, 88, 90); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Work h1
+{
+    border-bottom:2px solid gray;
+    color:rgb(88, 88, 90);
+    font-size: 26px;
+}
+.Work h2
+{
+    font-size: 20px;
+    color:rgb(88, 88, 90);
+}
+.Work h3
+{
+    font-size: 20px;
+    color:rgb(88, 88, 90);
+} 
+.Work h4
+{
+    font-size: 20px;
+    color:rgb(88, 88, 90);
+}
+.Work h5
+{
+    font-size: 20px;
+    color:rgb(88, 88, 90);
+    margin-top: 0px;
+}
+.Skills h1
+{
+    border-bottom:2px solid gray;
+    color:rgb(88, 88, 90);
+    font-size: 26px;
+}
+.Skills li
+{
+    font-size: 19px;
+    font-style: normal;
+    padding-left: 20px;
+    color: rgb(88, 88, 90); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main
+{
+    position: relative;
+    max-width: 1000px;
+    height: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-left: 120px;
+    padding-top: 100px;
+  
+    
+
+}
+.head .image img
+{
+  
+  width: 140px;
+  height: 150px;
+  margin-left: 70px;
+  margin-top: 50px;
+  border-radius: 180px;
+ 
+  
+ 
+}
+.main .head
+{
+    background-color:rgb(88, 88, 90);
+    width: 300px;
+
+    
+}
+.Information
+{
+    background-color: white;
+    padding: 10px;
+    width:800px;
+    
+   
+  
+}
+.Information .Name h1 
+{
+    border-bottom: 2px solid gray;
+}
+
+.head .Contact
+{
+    border-top: 2px solid darkgray;
+    color: lightgray; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+   
+
+}
+.Information .Name h1
+{
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    color: rgb(88, 88, 90); 
+    font-style: italic;
+    font:bold;
+    
+}
+.Information .Name h1 span
+{
+
+    font-size: 20px; 
+   
+     
+}
+.head ul
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    text-align: left;
+    
+    }
+.head li
+{
+    display: inline;
+}
+
+.Information .Objective h1
+
+{
+    border-bottom:2px solid gray;
+    color:rgb(88, 88, 90); 
+    font-size: 26px;
+}
+.Information .Objective p
+{
+    font-size: 19px;
+    font-style: normal;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(88, 88, 90); 
+    
+}
+.Information .Objective li
+{
+    font-size: 19px;
+    font-style: normal;
+    padding-left: 20px;
+    color: rgb(88, 88, 90); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
